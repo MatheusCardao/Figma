@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    height: 100vh;
+}
+
+.header-div-paragraph {
+    display: inline-block;
+    position: relative;
+    left: 200px;
+}
+
+.header-div-link {
+    display: inline-block;
+    margin: 56px 0px 0px 610px;
+    position: relative;
+    left: 410px;
+}
+
+ .header-div-paragraph p{
+    margin: 56px 0px 0px 80px;
+    font-size: 25px;
+}
+
+.header-div-link a {
+    margin-left: 48px;
+    font-size: 20px;    
+}
+
+.header-div-link button {
+    margin-left: 48px;
+    color: #FFFFFF;
+    height: 52px;
+    width: 82px;
+    background-color: #000000;
+    border-radius: 10px;
+    border:none;
+}
+
+.main-section {
+    width: 624px;
+    margin: 0px 0px 0px 80px;
+    display: inline-block;
+    position: relative;
+    bottom: 315px;
+    left: 200px; 
+
+}
+
+aside {
+    display: inline-block;
+    margin: 136px 85px 120px;
+    position: relative;
+    left: 400px;
+}
+
+.main-section h1 {
+    font-size: 64px
+}
+
+.main-section h2 {
+    font-size: 24px;
+    color: #828282;
+    font-weight: 400;
+    margin: 24px 0;
+}
+
+.main-section article {
+    font-weight: 500;
+}
+
+
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    left: 80px;
+}
+
+.footer-section-1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-section-1 p {
+    margin-bottom: 88px;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.footer-section-1 img {
+    display: block;
+    margin-left: -15px;
+    height: 50px;
+}
+
+.footer-section-2 {
+    display: flex;
+    flex-direction: row;
+    height: 168px;
+    margin-left: 200px;
+    position: relative; 
+    left: 20px;
+}
+
+.footer-div {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-right: 200px;
+}
+
+a {
+    cursor: pointer;
+}
+
+button {
+    cursor: pointer;
+}
+
+
+a:hover {
+    opacity: 0.8;
+}
+
+a:active {
+    opacity: 0.4;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:active {
+    opacity: 0.4;
+}
